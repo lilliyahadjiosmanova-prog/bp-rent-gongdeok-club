@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>공덕 비즈니스클럽 - 문의</title>
+    <meta name="description" content="공덕 비즈니스클럽 문의 페이지입니다. 연락처, 위치 지도, 운영시간 및 예약 폼을 제공합니다.">
+    <meta name="keywords" content="공덕 비즈니스클럽,공덕 셔츠룸,공덕 룸싸롱,공덕 텐프로,공덕 텐카페,공덕 쩜오,공덕 하이퍼블릭,공덕 풀싸롱,공덕 가라오케,공덕 노래방,공덕 마사지,공덕 펍,문의">
+    <link rel="canonical" href="https://gongdeok-club.xyz/contact.html">
+    <meta property="og:title" content="공덕 비즈니스클럽 - 문의">
+    <meta property="og:description" content="공덕 비즈니스클럽 문의 페이지. 연락처, 지도, 운영시간, 예약 폼 확인">
+    <meta property="og:url" content="https://gongdeok-club.xyz/contact.html">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="q-head-0m4y">
+        <div class="container">
+            <a href="/" class="logo">공덕 비즈니스클럽</a>
+            <nav class="nav-present">
+                <ul>
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/shirtroom">셔츠룸</a></li>
+                    <li><a href="/room-salon">룸싸롱</a></li>
+                    <li><a href="/tenpro">텐프로</a></li>
+                    <li><a href="/tencafe">텐카페</a></li>
+                    <li><a href="/jjemo">쩜오</a></li>
+                    <li><a href="/hyperblic">하이퍼블릭</a></li>
+                    <li><a href="/full-salon">풀싸롱</a></li>
+                    <li><a href="/karaoke">가라오케</a></li>
+                    <li><a href="/noraebang">노래방</a></li>
+                    <li><a href="/massage">마사지</a></li>
+                    <li><a href="/pub">펍</a></li>
+                    <li><a href="/contact">문의</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="q-main-5mgm">
+        <section class="container">
+            <h1 class="q-head-0m4y">문의 및 예약</h1>
+<img src="images/exterior.webp" alt="공덕 비즈니스클럽 입구" loading="lazy" decoding="async" style="width:100%;max-width:1100px;height:auto;border-radius:14px;margin:28px auto 0;display:block;object-fit:cover">
+
+            <!-- 연락처 카드 -->
+            <div class="m-card-206i">
+                <h2 class="q-head-0m4y">연락처</h2>
+                <p>전화: <a href="tel:+82212345678">02-2123-4567</a></p>
+                <p>팩스: 02-2123-4568</p>
+                <p>이메일: <a href="mailto:info@gongdeok-club.xyz">info@gongdeok-club.xyz</a></p>
+            </div>
+
+            <!-- 위치 및 지도 -->
+            <div class="m-card-206i">
+                <h2 class="q-head-0m4y">위치</h2>
+                <p>서울특별시 마포구 공덕동 123-45</p>
+                <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.123456789!2d126.932123!3d37.546789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1s0x357ca4c1a2b3c5d7%3A0xabcdef1234567890!2sGongdeok%20Station!5e0!3m2!1sko!2skr!4v1700000000000" width="600" height="450" style="border:0; width:100%; height:300px;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <!-- 운영시간 -->
+            <div class="m-card-206i">
+                <h2 class="q-head-0m4y">운영시간</h2>
+                <table>
+                    <thead>
+                        <tr><th>요일</th><th>오픈</th><th>클로즈</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>월요일</td><td>12:00</td><td>02:00</td></tr>
+                        <tr><td>화요일</td><td>12:00</td><td>02:00</td></tr>
+                        <tr><td>수요일</td><td>12:00</td><td>02:00</td></tr>
+                        <tr><td>목요일</td><td>12:00</td><td>02:00</td></tr>
+                        <tr><td>금요일</td><td>12:00</td><td>03:00</td></tr>
+                        <tr><td>토요일</td><td>12:00</td><td>03:00</td></tr>
+                        <tr><td>일요일</td><td>12:00</td><td>02:00</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- 예약 폼 -->
+            <div class="m-card-206i">
+                <h2 class="q-head-0m4y">예약 신청</h2>
+                <form action="/reserve" method="POST" class="reservation-form">
+                    <label for="name">성함</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="phone">연락처</label>
+                    <input type="tel" id="phone" name="phone" placeholder="010-1234-5678" required>
+
+                    <label for="email">이메일</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="date">예약 일시</label>
+                    <input type="date" id="date" name="date" required>
+                    <input type="time" id="time" name="time" required>
+
+                    <label for="message">요청 사항</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+
+                    <button type="submit">예약 요청</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="n-foot-myd1">
+        <div class="container">
+            <p>&copy; 2026 공덕 비즈니스클럽. All rights reserved.</p>
+            <nav>
+                <a href="/privacy">개인정보 처리방침</a> |
+                <a href="/terms">이용 약관</a>
+            </nav>
+        </div>
+    <p style="margin-top:16px;font-size:.78rem;opacity:.55"><a href="https://t.me/ghostvesselspace" target="_blank" rel="nofollow noopener" style="color:#94a3b8;text-decoration:none">사이트 렌탈 문의</a></p></footer>
+</body>
+</html>
